@@ -1,0 +1,67 @@
+body {
+    background-image: url(bg.png);
+    overflow: hidden;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+p {
+    font-family: Arial;
+}
+
+.title-header {
+    font-size: 75px;
+    font-family: Arial;
+    text-align: center;
+    user-select: none;
+    color: white;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: rgb(0, 0, 0);
+}
+
+.cash-button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.cash-button {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: transform 0.1s;
+    border-radius: 50px;
+    border-width: 0px;
+    outline-width: 0px;
+    margin-right: 20px;
+    width: 200px;
+}
+
+.cash-button:hover {
+    transform: scale(1.1);
+}
+
+.cash-button:active {
+    transform: scale(0.9);
+    background-color: green;
+}
+
+.cash-div {
+    margin-top: 475px;
+    display: flex;
+    align-items: center;
+}
+
+.cash-icon {
+    width: 100px;
+    display: inline-block;
+}
+
+.cash-text {
+    font-size: 70px;
+    display: inline-block;
+    color: white;
+}
